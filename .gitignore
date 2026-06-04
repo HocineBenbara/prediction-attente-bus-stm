@@ -1,0 +1,34 @@
+﻿# --- SÉCURITÉ & CLÉS API ---
+.env
+.env.local
+.env.production
+*.key
+*.pem
+config_secret.py
+secrets.json
+
+# --- DONNÉES LOCALES ---
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.json
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+
+# --- JUPYTER & IDE ---
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
